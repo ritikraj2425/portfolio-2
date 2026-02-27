@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=26&duration=2000&color=00F7FF&center=true&vCenter=true&width=900&lines=Ritik+Raj;AI+Engineer+%7C+Founder+%7C+Systems+Builder;Building+at+the+Intersection+of+AI+%2B+Education;Obsessed+with+Systems+%2B+AI+%2B+Scale" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=24&duration=4000&color=00F7FF&center=true&vCenter=true&width=800&lines=Ritik+Raj;AI+Engineer+%7C+Systems+Builder;Interested+in+AI+Infrastructure+%26+Distributed+Systems" />
 </p>
 
 ---
@@ -7,91 +7,72 @@
 ```bash
 > whoami
 Ritik Raj
-AI-focused engineer.
-Co-founder @ Seedite.
-Built products. Not just projects.
-Currently obsessed with Systems + AI + Scale.
+AI-focused engineering student.
+Builder of production-grade systems.
+Interested in AI infrastructure, distributed systems, and scalable architectures.
 ```
 
 ---
 
-# ⚡ BUILD LOG
+## Selected Work
 
-## 🔵 Seedite  
-🌐 https://www.seedite.in/
+### Seedite  
+https://www.seedite.in/
 
-> EdTech infrastructure platform for entrance prep & coding education.
+Built and launched a full-stack learning platform with video streaming, analytics, and distributed content delivery.  
+Designed backend architecture, mock engine, and admin systems.
 
-- Full-stack architecture  
-- Video streaming + CDN integration  
-- Mock test engine + performance analytics  
-- Admin dashboard  
-- Live product with real users  
-
-**Stack:** Next.js • Node.js • Express • MongoDB • AWS • Bunny CDN  
+**Stack:** Next.js, Node.js, MongoDB, AWS, CDN
 
 ---
 
-## 🟣 MergeFlow  
-🌐 https://mergeflow.vercel.app/  
-🔗 Backend: https://github.com/ritikraj2425/mr-management-backend  
+### MergeFlow  
+https://mergeflow.vercel.app/  
+https://github.com/ritikraj2425/mr-management-backend
 
-> Internal MR/PR workflow automation tool.
+Designed a workflow automation tool to reduce PR/MR management overhead in collaborative environments.  
+Focused on backend structure and system clarity.
 
-- Built from real internship workflow pain point  
-- Streamlined task coordination  
-- Reduced manual PR/MR overhead  
-
-**Stack:** Next.js • Node.js • Express • MongoDB • Tailwind CSS  
+**Stack:** Next.js, Express, MongoDB
 
 ---
 
-## 🟢 Quantum Research — HHL Algorithm  
-🔗 https://github.com/ritikraj2425/HHL_Algorithm_Quantum  
+### HHL Quantum Algorithm  
+https://github.com/ritikraj2425/HHL_Algorithm_Quantum
 
-> Implementation & study of the Harrow–Hassidim–Lloyd quantum algorithm.
-
-- Explored quantum circuit construction  
-- Studied algorithmic complexity  
-- Simulated quantum linear system solving  
-
-Focus: theoretical depth + implementation clarity.
+Implemented and studied the Harrow–Hassidim–Lloyd algorithm for solving linear systems.  
+Explored quantum circuit modeling and computational complexity.
 
 ---
 
-# 🧬 RESEARCH MODE
+## Areas of Interest
 
-- Implemented HHL Quantum Algorithm  
-- Exploring Operating Systems internals  
-- Interested in Distributed Systems + AI Infrastructure  
-- Strong foundation in:
-  - Data Structures
-  - Computer Networks
-  - Computer Architecture
+- AI Infrastructure  
+- Distributed Systems  
+- Operating Systems  
+- Systems Design  
+- Applied Machine Learning  
 
 ---
 
-# 🛠 STACK
+## Technical Stack
 
-### 🧠 AI / Core
-`Python` `AI-ML` `Data Structures` `Computer Networks` `Computer Architecture` `Operating Systems`
+**Languages**  
+Python, JavaScript  
 
-### 🌐 Web
-`Next.js` `React` `Node.js` `Express` `MongoDB` `Tailwind CSS`
+**Core CS**  
+Data Structures, Computer Networks, Computer Architecture  
 
-### ⚙ Infra / Tools
-`AWS` `CDN` `Git` `System Design`
+**Web & Systems**  
+Next.js, Node.js, Express, MongoDB, AWS  
 
 ---
 
-# 🌍 INTERNET
+## Links
 
-🔗 LinkedIn  
+LinkedIn  
 https://www.linkedin.com/in/ritik-raj-0a098228a/
 
 ---
 
-## Philosophy
-
-I don't just write code.  
-I build leverage.  
+I build systems with long-term leverage in mind.
