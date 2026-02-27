@@ -1,37 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=26&duration=2000&color=00F7FF&center=true&vCenter=true&width=900&lines=Ritik+Raj;AI+Engineer+%7C+Founder+%7C+Systems+Builder;Building+at+the+Intersection+of+AI+%2B+Education;Obsessed+with+Systems+%2B+AI+%2B+Scale" />
+</p>
 
-## Getting Started
-
-First, run the development server:
+---
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+> whoami
+Ritik Raj
+AI-focused engineer.
+Co-founder @ Seedite.
+Built products. Not just projects.
+Currently obsessed with Systems + AI + Scale.
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+# ⚡ BUILD LOG
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔵 Seedite  
+🌐 https://www.seedite.in/
 
-## Learn More
+> EdTech infrastructure platform for entrance prep & coding education.
 
-To learn more about Next.js, take a look at the following resources:
+- Full-stack architecture  
+- Video streaming + CDN integration  
+- Mock test engine + performance analytics  
+- Admin dashboard  
+- Live product with real users  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Stack:** Next.js • Node.js • Express • MongoDB • AWS • Bunny CDN  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🟣 MergeFlow  
+🌐 https://mergeflow.vercel.app/  
+🔗 Backend: https://github.com/ritikraj2425/mr-management-backend  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+> Internal MR/PR workflow automation tool.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# portfolio-2
+- Built from real internship workflow pain point  
+- Streamlined task coordination  
+- Reduced manual PR/MR overhead  
+
+**Stack:** Next.js • Node.js • Express • MongoDB • Tailwind CSS  
+
+---
+
+## 🟢 Quantum Research — HHL Algorithm  
+🔗 https://github.com/ritikraj2425/HHL_Algorithm_Quantum  
+
+> Implementation & study of the Harrow–Hassidim–Lloyd quantum algorithm.
+
+- Explored quantum circuit construction  
+- Studied algorithmic complexity  
+- Simulated quantum linear system solving  
+
+Focus: theoretical depth + implementation clarity.
+
+---
+
+# 🧬 RESEARCH MODE
+
+- Implemented HHL Quantum Algorithm  
+- Exploring Operating Systems internals  
+- Interested in Distributed Systems + AI Infrastructure  
+- Strong foundation in:
+  - Data Structures
+  - Computer Networks
+  - Computer Architecture
+
+---
+
+# 🛠 STACK
+
+### 🧠 AI / Core
+`Python` `AI-ML` `Data Structures` `Computer Networks` `Computer Architecture` `Operating Systems`
+
+### 🌐 Web
+`Next.js` `React` `Node.js` `Express` `MongoDB` `Tailwind CSS`
+
+### ⚙ Infra / Tools
+`AWS` `CDN` `Git` `System Design`
+
+---
+
+# 🌍 INTERNET
+
+🔗 LinkedIn  
+https://www.linkedin.com/in/ritik-raj-0a098228a/
+
+---
+
+## Philosophy
+
+I don't just write code.  
+I build leverage.  
