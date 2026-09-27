@@ -2,12 +2,13 @@
 
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Github, Linkedin, Mail, Code, Trophy } from "lucide-react";
+import { Github, Linkedin, Mail, Code, Trophy, Youtube } from "lucide-react";
 
 const socials = [
     { icon: Mail, label: "Email", href: "mailto:rajritik2425@gmail.com" },
     { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/ritik-raj-0a098228a/" },
     { icon: Github, label: "GitHub", href: "https://github.com/ritikraj2425" },
+    { icon: Youtube, label: "YouTube", href: "https://www.youtube.com/@ritikraj2425" },
     { icon: Code, label: "Codeforces", href: "https://codeforces.com/profile/ritik_raj2425" },
     { icon: Trophy, label: "LeetCode", href: "https://leetcode.com/u/ritikraj2425/" },
 ];
@@ -53,13 +54,14 @@ export default function Contact() {
                     transition={{ duration: 0.5, delay: 0.2 }}
                     style={{
                         color: "var(--text-muted)",
-                        maxWidth: 440,
-                        margin: "0 auto 28px",
-                        fontSize: "0.9rem",
+                        maxWidth: 480,
+                        margin: "0 auto 32px",
+                        fontSize: "0.95rem",
+                        lineHeight: 1.7,
                     }}
                 >
                     I&apos;m always open to exciting opportunities, collaborations, or
-                    just a good conversation about tech. Drop me a line.
+                    just a good conversation about tech and AI. Drop me a line.
                 </motion.p>
 
                 <motion.a
@@ -67,28 +69,38 @@ export default function Contact() {
                     initial={{ opacity: 0, y: 12 }}
                     animate={inView ? { opacity: 1, y: 0 } : {}}
                     transition={{ duration: 0.5, delay: 0.3 }}
+                    className="btn-primary"
                     style={{
-                        display: "inline-block",
-                        fontFamily: "var(--font-mono)",
-                        fontSize: "clamp(0.9rem, 2vw, 1.25rem)",
-                        fontWeight: 600,
-                        color: "var(--accent)",
-                        textDecoration: "none",
-                        marginBottom: 36,
-                        transition: "color 0.2s",
+                        display: "inline-flex",
+                        marginBottom: 12,
+                        fontSize: "0.95rem",
+                        padding: "14px 32px",
                     }}
-                    onMouseEnter={(e) => (e.target.style.color = "#34d399")}
-                    onMouseLeave={(e) => (e.target.style.color = "var(--accent)")}
                 >
-                    rajritik2425@gmail.com
+                    <Mail size={18} /> rajritik2425@gmail.com
                 </motion.a>
+
+                <motion.p
+                    initial={{ opacity: 0 }}
+                    animate={inView ? { opacity: 1 } : {}}
+                    transition={{ duration: 0.4, delay: 0.4 }}
+                    style={{
+                        fontSize: "0.7rem",
+                        fontFamily: "var(--font-mono)",
+                        color: "var(--text-dim)",
+                        letterSpacing: "0.05em",
+                        marginBottom: 32,
+                    }}
+                >
+                    +91 9113132537
+                </motion.p>
 
                 {/* Social icons */}
                 <motion.div
                     initial={{ opacity: 0, y: 12 }}
                     animate={inView ? { opacity: 1, y: 0 } : {}}
-                    transition={{ duration: 0.5, delay: 0.4 }}
-                    style={{ display: "flex", justifyContent: "center", gap: 12 }}
+                    transition={{ duration: 0.5, delay: 0.45 }}
+                    style={{ display: "flex", justifyContent: "center", gap: 12, flexWrap: "wrap" }}
                 >
                     {socials.map((s) => {
                         const Icon = s.icon;
@@ -99,18 +111,19 @@ export default function Contact() {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 title={s.label}
-                                whileHover={{ scale: 1.15, y: -2 }}
+                                whileHover={{ scale: 1.08, y: -2 }}
+                                whileTap={{ scale: 0.95 }}
                                 style={{
-                                    width: 44,
-                                    height: 44,
-                                    borderRadius: 10,
+                                    width: 48,
+                                    height: 48,
+                                    borderRadius: 12,
                                     border: "1px solid var(--border)",
                                     display: "flex",
                                     alignItems: "center",
                                     justifyContent: "center",
                                     color: "var(--text-dim)",
                                     textDecoration: "none",
-                                    transition: "border-color 0.2s, color 0.2s",
+                                    transition: "border-color 0.25s, color 0.25s",
                                 }}
                                 onMouseEnter={(e) => {
                                     e.currentTarget.style.borderColor = "var(--accent)";
@@ -121,7 +134,7 @@ export default function Contact() {
                                     e.currentTarget.style.color = "var(--text-dim)";
                                 }}
                             >
-                                <Icon size={18} />
+                                <Icon size={20} />
                             </motion.a>
                         );
                     })}
@@ -142,7 +155,7 @@ export default function Contact() {
                     fontFamily: "var(--font-mono)",
                 }}
             >
-                Designed & Built by <span style={{ color: "var(--accent)" }}>Ritik Raj</span> · 2025
+                Designed & Built by <span style={{ color: "var(--accent)" }}>Ritik Raj</span> | 2026
             </div>
         </section>
     );

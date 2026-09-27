@@ -14,9 +14,9 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: "Ritik Raj — Full Stack Developer & AI Engineer",
+  title: "Ritik Raj - AI & Software Builder | Open Source Contributor",
   description:
-    "Full Stack Developer and AI-focused engineering student. Builder of Seedite, MergeFlow, and AI-driven products.",
+    "AI & Software builder. Open-source contributor to Haystack, co-founder of Seedite (320+ users), and creator of an AI content channel with 250K+ views. Building end-to-end from LoRA fine-tuning to production automation.",
 };
 
 export default function RootLayout({ children }) {

@@ -4,10 +4,12 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 const stats = [
+    { value: "1000+", label: "DSA Problems Solved" },
+    { value: "320+", label: "Users on Seedite" },
+    { value: "11", label: "Haystack PRs Merged" },
     { value: "250K+", label: "YouTube Views" },
-    { value: "3+", label: "Production Apps" },
-    { value: "4", label: "Open Source PRs" },
-    { value: "8.22", label: "CGPA / 10" },
+    { value: "1.4K", label: "YouTube Subscribers" },
+    { value: "8.57", label: "CGPA / 10" },
 ];
 
 export default function About() {
@@ -46,20 +48,26 @@ export default function About() {
                         <p style={{ marginBottom: 16 }}>
                             I&apos;m a B.Tech AI student at{" "}
                             <strong style={{ color: "var(--text)" }}>Newton School of Technology, Rishihood University</strong>{" "}
-                            with an <strong style={{ color: "var(--text)" }}>8.22 CGPA</strong> but grades don&apos;t tell the full story.
+                            (2023–2027) with a <strong style={{ color: "var(--text)" }}>8.57 CGPA</strong>. Strong CS fundamentals in{" "}
+                            <strong style={{ color: "var(--text)" }}>DSA, OS, DBMS, Computer Networks, and System Design</strong> — and{" "}
+                            <strong style={{ color: "var(--accent)" }}>1000+ DSA problems</strong> solved across LeetCode and Codeforces.
                         </p>
                         <p style={{ marginBottom: 16 }}>
-                            I have interned at India&apos;s biggest edtech company <strong style={{ color: "var(--text)" }}>Physics Wallah</strong> where I built internal tools, co-founded an edtech company <a href="https://www.seedite.in" target="_blank" rel="noopener noreferrer" style={{ color: "var(--accent)", textDecoration: "none" }}>Seedite</a>, and led AI content strategy at{" "}
-                            <strong style={{ color: "var(--text)" }}>ShortSee</strong>. I think in systems, not just syntax.
+                            I&apos;ve interned at <strong style={{ color: "var(--text)" }}>Physics Wallah</strong> (1.5M+ DAU platform),
+                            co-founded <a href="https://www.seedite.in" target="_blank" rel="noopener noreferrer" style={{ color: "var(--accent)", textDecoration: "none" }}>Seedite</a> — an EdTech platform with{" "}
+                            <strong style={{ color: "var(--accent)" }}>320+ users and ₹16K+ revenue</strong> — and contributed{" "}
+                            <strong style={{ color: "var(--accent)" }}>11 merged PRs</strong> to{" "}
+                            <a href="https://github.com/deepset-ai/haystack" target="_blank" rel="noopener noreferrer" style={{ color: "var(--accent)", textDecoration: "none" }}>Haystack</a>, an open-source LLM orchestration framework.
                         </p>
                         <p style={{ marginBottom: 16 }}>
-                            When I&apos;m not shipping products, I&apos;m creating tech content on YouTube with over{" "}
-                            <strong style={{ color: "var(--accent)" }}>250K+ views</strong> or competing in hackathons like{" "}
-                            <strong style={{ color: "var(--text)" }}>Tech-Sangam</strong> and <strong style={{ color: "var(--text)" }}>Re-Imagine 2024</strong>.
+                            Beyond code, I run a YouTube channel with{" "}
+                            <strong style={{ color: "var(--accent)" }}>1.4K subscribers and 250K+ views</strong> on AI &amp; tech innovation — some videos produced entirely with an{" "}
+                            <strong style={{ color: "var(--text)" }}>AI avatar, AI voice cloning, and AI-generated visuals</strong>, indistinguishable from self-shot content.
                         </p>
                         <p>
-                            I&apos;m obsessed with{" "}
-                            <strong style={{ color: "var(--text)" }}>Data Structures, Computer Networks, Operating Systems</strong>, and building things that matter.
+                            I think in systems, not syntax — from{" "}
+                            <strong style={{ color: "var(--text)" }}>LoRA fine-tuning and diffusion models</strong> to production automation with{" "}
+                            <strong style={{ color: "var(--text)" }}>MCP, RabbitMQ, and Celery</strong>. Comfortable building end-to-end.
                         </p>
                     </motion.div>
 
@@ -103,7 +111,7 @@ export default function About() {
         }
         @media (min-width: 640px) {
           .stats-grid {
-            grid-template-columns: repeat(4, 1fr) !important;
+            grid-template-columns: repeat(3, 1fr) !important;
           }
         }
         @media (min-width: 768px) {

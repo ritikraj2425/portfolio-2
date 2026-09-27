@@ -4,12 +4,50 @@ import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
 
 const categories = [
-    { name: "Languages", skills: ["JavaScript", "Python"], color: "#f59e0b" },
-    { name: "Frontend", skills: ["React.js", "Next.js", "Tailwind CSS"], color: "#06b6d4" },
-    { name: "Backend", skills: ["Node.js", "Express.js"], color: "#10b981" },
-    { name: "Databases", skills: ["MongoDB", "MySQL"], color: "#ef4444" },
-    { name: "Core CS", skills: ["DSA", "Computer Networks", "OS", "AI-ML", "Computer Architecture"], color: "#8b5cf6" },
-    { name: "Tools", skills: ["Git", "GitHub", "AWS"], color: "#ec4899" },
+    {
+        name: "Languages",
+        skills: ["Python", "JavaScript", "TypeScript", "C", "C++", "Java", "Go", "SQL"],
+    },
+    {
+        name: "Frontend",
+        skills: ["React.js", "Next.js", "Electron", "Tailwind CSS"],
+    },
+    {
+        name: "Backend",
+        skills: ["Node.js", "Express.js", "FastAPI"],
+    },
+    {
+        name: "Databases",
+        skills: ["MongoDB", "MySQL"],
+    },
+    {
+        name: "AI / ML",
+        skills: ["PyTorch", "Transformers", "Hugging Face", "LLM Agents", "RAG", "LoRA Fine-tuning", "Diffusion Models", "MCP"],
+    },
+    {
+        name: "Automation",
+        skills: ["RabbitMQ", "Celery", "Playwright", "Microservices", "REST APIs", "Webhooks"],
+    },
+    {
+        name: "Core CS",
+        skills: ["DSA", "Operating Systems", "DBMS", "Computer Networks", "Computer Architecture", "System Design"],
+    },
+    {
+        name: "Security",
+        skills: ["Ethical Hacking", "JWT", "OAuth 2.0", "RBAC", "Rate Limiting"],
+    },
+    {
+        name: "Systems Programming",
+        skills: ["Terminal Rendering", "Manual Memory Allocation", "Game Loops", "State Machines", "Low-Level C"],
+    },
+    {
+        name: "Infra & Tools",
+        skills: ["AWS", "Docker", "Git", "GitHub Actions", "Linux", "Razorpay", "Bunny.net CDN"],
+    },
+    {
+        name: "AI Content",
+        skills: ["AI Avatars", "Voice Cloning", "AI Video Generation", "AI Image Generation"],
+    },
 ];
 
 export default function Skills() {
@@ -49,7 +87,7 @@ export default function Skills() {
                             key={cat.name}
                             initial={{ opacity: 0, y: 20 }}
                             animate={inView ? { opacity: 1, y: 0 } : {}}
-                            transition={{ duration: 0.5, delay: 0.15 + i * 0.08 }}
+                            transition={{ duration: 0.5, delay: 0.15 + i * 0.06 }}
                             className="card"
                         >
                             <span
@@ -59,7 +97,7 @@ export default function Skills() {
                                     fontWeight: 600,
                                     letterSpacing: "0.1em",
                                     fontFamily: "var(--font-mono)",
-                                    color: cat.color,
+                                    color: "var(--accent)",
                                     marginBottom: 14,
                                 }}
                             >
@@ -71,22 +109,8 @@ export default function Skills() {
                                         key={skill}
                                         initial={{ opacity: 0, scale: 0.9 }}
                                         animate={inView ? { opacity: 1, scale: 1 } : {}}
-                                        transition={{ duration: 0.3, delay: 0.3 + i * 0.08 + j * 0.04 }}
-                                        style={{
-                                            padding: "6px 14px",
-                                            fontSize: "0.8rem",
-                                            borderRadius: 6,
-                                            border: `1px solid ${cat.color}30`,
-                                            color: cat.color,
-                                            background: `${cat.color}08`,
-                                            transition: "all 0.2s ease",
-                                            cursor: "default",
-                                        }}
-                                        whileHover={{
-                                            y: -2,
-                                            boxShadow: `0 4px 16px ${cat.color}25`,
-                                            borderColor: `${cat.color}60`,
-                                        }}
+                                        transition={{ duration: 0.3, delay: 0.3 + i * 0.06 + j * 0.03 }}
+                                        className="tag"
                                     >
                                         {skill}
                                     </motion.span>

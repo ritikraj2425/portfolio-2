@@ -8,6 +8,8 @@ const links = [
     { label: "Experience", href: "#experience" },
     { label: "Projects", href: "#projects" },
     { label: "Skills", href: "#skills" },
+    { label: "Achievements", href: "#achievements" },
+    { label: "Education", href: "#education" },
     { label: "Contact", href: "#contact" },
 ];
 
@@ -88,7 +90,7 @@ export default function Navbar() {
                                 {l.label}
                             </a>
                         ))}
-                        <a href="https://drive.google.com/file/d/1TUi-6zBBG8Fu5slLffh-Fj6HszgFtGf9/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="btn-outline" style={{ padding: "8px 20px", fontSize: "0.8rem" }}>
+                        <a href="https://drive.google.com/file/d/1jfvP3Zkq0zep4xrBg-Mj4h0m2HMW4jmK/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="btn-outline" style={{ padding: "8px 20px", fontSize: "0.8rem" }}>
                             Resume
                         </a>
                     </nav>
