@@ -8,40 +8,49 @@ const experiences = [
     {
         company: "Physics Wallah",
         role: "Tech Engineering Intern",
-        period: "Jan 2025 – Jul 2025",
+        period: "Jan 2025 to Jul 2025",
         location: "Noida",
         icon: Briefcase,
         bullets: [
-            "Contributed to an internal UI component library used across PW platforms serving 1.5M+ DAU.",
-            "Integrated the Otpless auth SDK into production authentication workflows on PW.live.",
-            "Performed technical testing and QA on PW.live (v2), the company's primary consumer-facing website, before release.",
+            "India's leading EdTech platform. Built reusable TypeScript, Next.js, and Tailwind CSS UI components for production CMS interfaces.",
+            "Worked extensively on the internal UI library used across PW platforms serving 1.5M+ DAU, fixing component defects and implementing required changes.",
+            "Integrated the Otpless authentication SDK into production authentication workflows.",
+            "Performed technical testing and QA for PW's primary consumer facing website, validating production flows and release critical edge cases.",
+            "During Tech Sangam, worked on a gamified learning prototype inspired by Clash of Clans where students could solve questions, earn points, unlock features, and compete; team ranked Top 10 out of 50+ teams."
         ],
-        tags: ["UI Library", "Otpless SDK", "1.5M+ DAU", "Production", "QA"],
+        tags: ["TypeScript", "Next.js", "UI Library", "1.5M+ DAU", "Production QA"],
     },
     {
         company: "Seedite",
-        role: "Co-Founder & Sole Engineer",
-        period: "Dec 2024 – Present",
+        role: "Co Founder & Sole Engineer",
+        period: "Dec 2024 to Present",
         location: "Remote",
         icon: Rocket,
         link: "https://www.seedite.in",
         bullets: [
-            "Solo-built and shipped a scalable EdTech platform in under 1 month — 320+ users, Rs. 16K+ revenue, 99.9% uptime, zero paid marketing.",
-            "Shipped 100+ hours of lecture content; iterated 100+ feature/UX changes directly from user feedback.",
-            "Full system architecture: Bunny.net CDN, Razorpay payments, mock tests, interview prep, analytics. SEO 100, 125K+ impressions, 0.3s FCP, 3% conversion rate.",
+            "Solo managed the technical architecture, building a production Node.js/Express backend with MongoDB Atlas.",
+            "Implemented Razorpay payments using dual verification (client side signature + independent webhook HMAC SHA256) and idempotent paths to prevent duplicate enrollment.",
+            "Built Google OAuth 2.0 account linking, session based single device login enforcement, and B2B college licensing with email based multi tenant access control and per student analytics.",
+            "Architected secure content delivery using Bunny Stream CDN with SHA 256 signed token URLs (24h expiry) and an S3/CloudFront asset storage layer.",
+            "Developed a Gemini powered admin natural language to MongoDB query engine, secured by an application level operation whitelist and secondary AI read only verification.",
+            "Configured GitHub Actions CI/CD to an Ubuntu VPS with PM2 process management and secret based environment injection.",
+            "Shipped 100+ hours of lecture content and iterated 100+ feature/UX changes from user feedback."
         ],
-        tags: ["EdTech", "Full-Stack", "320+ Users", "Rs. 16K+ Revenue", "99.9% Uptime"],
+        tags: ["Node.js", "MongoDB", "320+ Users", "₹16K+ Revenue", "99.9% Uptime", "SEO 100", "0.3s FCP"],
     },
     {
-        company: "Haystack (deepset-ai)",
+        company: "Haystack (deepset ai)",
         role: "Open Source Contributor",
-        period: "2025 – Present",
+        period: "2025 to Present",
         location: "Remote",
         icon: GitPullRequest,
         link: "https://github.com/deepset-ai/haystack",
         bullets: [
-            "11 merged PRs and 2 improvement proposals to an open-source LLM orchestration framework.",
-            "Investigated and resolved framework-level bugs, improving reliability of retrieval and pipeline components for downstream users.",
+            "11 merged PRs and 2 improvement proposals to an open source LLM orchestration framework, improving framework level reliability.",
+            "PR #11569: Fixed telemetry decorator metadata loss/preservation issue and added targeted tests.",
+            "PR #11505: Implemented secure by default symlink handling for ByteStream and converters.",
+            "PR #11259: Fixed device state restoration in NamedEntityExtractor alongside release note updates.",
+            "Investigated and resolved framework level bugs, improving reliability of retrieval and pipeline components for downstream users."
         ],
         tags: ["Open Source", "LLM Framework", "11 PRs Merged", "Python"],
     },
@@ -73,20 +82,6 @@ export default function Experience() {
                 </motion.h2>
 
                 <div style={{ position: "relative" }}>
-                    {/* Timeline line */}
-                    <div
-                        className="timeline-line"
-                        style={{
-                            position: "absolute",
-                            left: 19,
-                            top: 0,
-                            bottom: 0,
-                            width: 1,
-                            background: "linear-gradient(to bottom, var(--accent), var(--border) 40%, var(--border) 60%, transparent)",
-                            zIndex: 0,
-                        }}
-                    />
-
                     <div style={{ display: "flex", flexDirection: "column", gap: 28 }}>
                         {experiences.map((exp, i) => {
                             const Icon = exp.icon;
@@ -99,7 +94,7 @@ export default function Experience() {
                                     style={{ display: "flex", gap: 20, position: "relative", zIndex: 1 }}
                                 >
                                     {/* Timeline node */}
-                                    {/* <div
+                                    <div
                                         style={{
                                             width: 40,
                                             height: 40,
@@ -115,7 +110,7 @@ export default function Experience() {
                                         }}
                                     >
                                         <Icon size={18} style={{ color: "var(--accent)" }} />
-                                    </div> */}
+                                    </div>
 
                                     {/* Card */}
                                     <div className="card" style={{ flex: 1, position: "relative", paddingLeft: 24 }}>
@@ -214,11 +209,6 @@ export default function Experience() {
             <div className="divider" style={{ marginTop: 80 }} />
 
             <style jsx>{`
-                @media (max-width: 640px) {
-                    .timeline-line {
-                        display: none !important;
-                    }
-                }
             `}</style>
         </section>
     );

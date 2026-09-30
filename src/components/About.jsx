@@ -49,23 +49,23 @@ export default function About() {
                             I&apos;m a B.Tech AI student at{" "}
                             <strong style={{ color: "var(--text)" }}>Newton School of Technology, Rishihood University</strong>{" "}
                             (2023–2027) with a <strong style={{ color: "var(--text)" }}>8.57 CGPA</strong>. Strong CS fundamentals in{" "}
-                            <strong style={{ color: "var(--text)" }}>DSA, OS, DBMS, Computer Networks, and System Design</strong> — and{" "}
+                            <strong style={{ color: "var(--text)" }}>DSA, OS, DBMS, Computer Networks, and System Design</strong>  and{" "}
                             <strong style={{ color: "var(--accent)" }}>1000+ DSA problems</strong> solved across LeetCode and Codeforces.
                         </p>
                         <p style={{ marginBottom: 16 }}>
                             I&apos;ve interned at <strong style={{ color: "var(--text)" }}>Physics Wallah</strong> (1.5M+ DAU platform),
-                            co-founded <a href="https://www.seedite.in" target="_blank" rel="noopener noreferrer" style={{ color: "var(--accent)", textDecoration: "none" }}>Seedite</a> — an EdTech platform with{" "}
-                            <strong style={{ color: "var(--accent)" }}>320+ users and ₹16K+ revenue</strong> — and contributed{" "}
+                            co-founded <a href="https://www.seedite.in" target="_blank" rel="noopener noreferrer" style={{ color: "var(--accent)", textDecoration: "none" }}>Seedite</a>  an EdTech platform with{" "}
+                            <strong style={{ color: "var(--accent)" }}>320+ users and ₹16K+ revenue</strong>  and contributed{" "}
                             <strong style={{ color: "var(--accent)" }}>11 merged PRs</strong> to{" "}
                             <a href="https://github.com/deepset-ai/haystack" target="_blank" rel="noopener noreferrer" style={{ color: "var(--accent)", textDecoration: "none" }}>Haystack</a>, an open-source LLM orchestration framework.
                         </p>
                         <p style={{ marginBottom: 16 }}>
                             Beyond code, I run a YouTube channel with{" "}
-                            <strong style={{ color: "var(--accent)" }}>1.4K subscribers and 250K+ views</strong> on AI &amp; tech innovation — some videos produced entirely with an{" "}
+                            <strong style={{ color: "var(--accent)" }}>1.4K subscribers and 250K+ views</strong> on AI &amp; tech innovation  some videos produced entirely with an{" "}
                             <strong style={{ color: "var(--text)" }}>AI avatar, AI voice cloning, and AI-generated visuals</strong>, indistinguishable from self-shot content.
                         </p>
                         <p>
-                            I think in systems, not syntax — from{" "}
+                            I think in systems, not syntax  from{" "}
                             <strong style={{ color: "var(--text)" }}>LoRA fine-tuning and diffusion models</strong> to production automation with{" "}
                             <strong style={{ color: "var(--text)" }}>MCP, RabbitMQ, and Celery</strong>. Comfortable building end-to-end.
                         </p>

@@ -168,7 +168,7 @@ body {
   }
 }
 
-/* ====== PROJECT CARD (no lift on hover — already has border accent) ====== */
+/* ====== PROJECT CARD (no lift on hover  already has border accent) ====== */
 .project-card:hover {
   transform: none;
 }
@@ -231,7 +231,7 @@ body {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, transparent, rgba(255,255,255,0.1), transparent);
+  background: linear-gradient(135deg, transparent, rgba(255, 255, 255, 0.1), transparent);
   transform: translateX(-100%);
   transition: transform 0.5s ease;
 }

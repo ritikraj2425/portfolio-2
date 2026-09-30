@@ -7,7 +7,7 @@ import { Trophy, GitPullRequest, Code, Youtube, Award, Zap } from "lucide-react"
 const achievements = [
     {
         icon: GitPullRequest,
-        title: "Open Source — Haystack",
+        title: "Open Source  Haystack",
         description: "11 merged PRs and 2 improvement proposals to deepset-ai/Haystack, a widely-used open-source LLM orchestration framework.",
     },
     {
@@ -17,18 +17,18 @@ const achievements = [
     },
     {
         icon: Youtube,
-        title: "YouTube — 1.4K Subs, 250K+ Views",
+        title: "YouTube  1.4K Subs, 250K+ Views",
         description: "Built a tech & AI content channel with 1.4K subscribers and 250K+ views. Some videos produced entirely with AI avatar, AI voice, and AI-generated visuals.",
     },
     {
         icon: Trophy,
         title: "Tech-Sangam (PW + AWS)",
-        description: "Ranked Top 10 out of 50+ teams at Tech-Sangam, a hackathon by Physics Wallah and AWS.",
+        description: "Ranked Top 10 out of 50+ teams at Tech-Sangam, developing a gamified learning prototype featuring point-based question solving, unlocks, and competitive mechanics.",
     },
     {
         icon: Zap,
         title: "Razorpay AI Buildathon",
-        description: "Participant at the Razorpay AI Buildathon — built a multi-agent merchant onboarding pipeline.",
+        description: "Participant at the Razorpay AI Buildathon  built a multi-agent merchant onboarding pipeline.",
     },
     {
         icon: Award,

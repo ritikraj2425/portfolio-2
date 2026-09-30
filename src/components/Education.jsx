@@ -79,7 +79,7 @@ export default function Education() {
                         <div style={{ flex: 1, minWidth: 260 }}>
                             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "baseline", flexWrap: "wrap", gap: 8, marginBottom: 6 }}>
                                 <h3 style={{ fontSize: "1.25rem", fontWeight: 700, color: "var(--text)" }}>
-                                    Bachelor of Technology — Computer Science &amp; AI
+                                    Bachelor of Technology  Computer Science &amp; AI
                                 </h3>
                                 <span style={{ fontSize: "0.75rem", fontFamily: "var(--font-mono)", color: "var(--text-dim)", letterSpacing: "0.05em" }}>
                                     2023 – 2027

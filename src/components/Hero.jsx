@@ -126,11 +126,11 @@ export default function Hero() {
                         lineHeight: 1.75,
                     }}
                 >
-                    AI &amp; Software builder — open-source contributor to{" "}
+                    AI &amp; Software builder  open-source contributor to{" "}
                     <span style={{ color: "#e4e4e7", fontWeight: 500 }}>Haystack</span>, co-founder of a scaled
                     EdTech product, and creator of an AI content channel with{" "}
                     <span style={{ color: "#10b981", fontWeight: 500 }}>250K+ views</span>. From LoRA fine-tuning to
-                    production automation with MCP, RabbitMQ, and Celery — I build{" "}
+                    production automation with MCP, RabbitMQ, and Celery  I build{" "}
                     <span style={{ color: "#e4e4e7", fontWeight: 500 }}>end-to-end</span>.
                 </motion.p>
 
